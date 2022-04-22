@@ -1,0 +1,17 @@
+print("Tuple Data-Type")
+tup=(21,'Rajesh',69,1098,90.78)
+print(tup)
+res=tup[1]
+print(res)
+nums=(100,200,90,100,45,69,69,43,90)
+res=nums.count(200)
+res1=nums.count(69)
+print(res,res1)
+a=nums.index(69)
+print(a)
+set={100,200,300,400,500,600,700,800,900,1000}
+print(set)
+res=set.pop()
+print(set)
+res=set.remove(200)
+print(set)

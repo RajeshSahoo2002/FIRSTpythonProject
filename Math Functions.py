@@ -1,0 +1,22 @@
+print("Let's Learn import & math functions")
+import math
+res=math.sqrt(25)
+print(res)
+a=int(math.sqrt(13))
+print(a)
+b=math.ceil(2.1)
+print(b)
+c=math.pow(3,2)
+print(c)
+import math as x
+v=x.sqrt(36)
+print(v)
+print(int(x.sqrt(90)))
+print(math.sqrt(90))
+print(x.floor(21.334))
+print(math.ceil(269.675))
+g=int(input("Enter the 1st number:"))
+h=input("Enter the 2nd number:")
+print(type(h))
+z=g+h
+print(z)
